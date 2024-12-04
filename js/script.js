@@ -424,3 +424,9 @@ btnGeracao.addEventListener('click', () => {
 })
 
 renderPokemon(numPoke);
+
+window.addEventListener('load', () => {
+    const audio = document.getElementById('background-audio');
+    audio.muted = false;
+    audio.volume = 0.1;
+})
