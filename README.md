@@ -2,7 +2,7 @@
 ## Um novo modelo de pokedex reimaginado
 
 <p>
- <img width="" height="" src="">
+ <img width="" height="" src="/imagens/gif.gif">
 </p>
 
 ## 🖥️Tecnologia utilizada:
