@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <main>
+        <button class="btn-shiny">SHINY</button>
+
+        <img src="#" alt="pokemon" class="pokemon_image">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> -
+            <span class="pokemon_name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Nome ou número" required>
+        </form>
+
+
+        <div>
+            <label>Geração:</label>
+            <select name="geracao" id="geracao">
+                <option value="8" selected>8ª</option>
+                <option value="7">7ª</option>
+                <option value="6">6ª</option>
+                <option value="5" >5ª</option>
+                <option value="4">4ª</option>
+                <option value="3">3ª</option>
+                <option value="2">2ª</option>
+                <option value="1">1ª</option>
+            </select>
+            <button class="btn-geracao">Mudar</button>
+        </div>
+
+        <div class="buttons">
+            <button class="button btn-volt">Voltar &lt;</button>
+            <button class="button btn-prox">Próximo &gt;</button>
+        </div>
+
+        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+</body>
+
+</html>
